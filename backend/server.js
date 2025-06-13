@@ -10,7 +10,7 @@ const app = express();
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production' 
     ? [
-        'https://property-rental-cgdjcjlj6-jatins-projects-2a93ed71.vercel.app',
+        'https://property-rental-ba796c95f-jatins-projects-2a93ed71.vercel.app',
         /\.vercel\.app$/
       ]
     : ['http://localhost:3000'],
