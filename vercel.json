@@ -8,11 +8,10 @@
         "distDir": "build"
       }
     }
-  ],
-  "routes": [
+  ],  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "frontend/build/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
