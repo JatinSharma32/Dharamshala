@@ -100,3 +100,4 @@ temp/
 
 # Uploads (if you have file uploads)
 uploads/
+.vercel
