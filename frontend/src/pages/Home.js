@@ -5,7 +5,7 @@ import PropertyCard from '../components/listings/PropertyCard';
 import { toast } from 'react-toastify';
 import './Home.css';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || '/api';
 
 const Home = () => {
   const [listings, setListings] = useState([]);
